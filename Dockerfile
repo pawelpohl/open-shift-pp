@@ -6,4 +6,4 @@ WORKDIR /src
 COPY . /src
 # RUN pip install -r requirements.txt
 
-CMD ["wspi.py"]
+CMD python /src/wsgi.py
